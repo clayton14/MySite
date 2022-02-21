@@ -68,7 +68,7 @@ p {
     -moz-border-radius: 125px;
   }
 
-  footer {
+  /* footer {
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
@@ -78,7 +78,7 @@ p {
     position: relative;
     padding: 10%;
     background: grey;
-  }
+  } */
 }
 
 @media only screen and (max-width: 500px) {
