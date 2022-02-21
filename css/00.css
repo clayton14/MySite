@@ -1,5 +1,5 @@
 .fixed {
-  position: sticky;
+  position: absolute;
   top: 0;
   width: 100%;
   z-index: 0;
@@ -7,20 +7,20 @@
   /* background-image: linear-gradient(to right, lightblue, ); */
 }
 
-a {
-  padding: 5px;
-  margin: 1px;
+p {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .box {
-  padding: 5% 15% 15%;
+  margin: 0%;
+  padding: 5% 25% 5%;
   text-decoration: black;
 }
 
 .pfp {
-  margin: 1%;
-  float: inline-end;
-  word-wrap: normal;
+  margin: 0%;
+  float: right;
+  word-wrap: break-word;
   width: 200px;
   height: 200px;
   background-image: url("/images/me.jpeg");
@@ -35,6 +35,7 @@ a {
   font-size: large;
   border-left: black 1px solid;
   padding: 0px 5px;
+  width: 50%;
 }
 
 .dark {
@@ -42,7 +43,7 @@ a {
   color: #fff;
 }
 
-footer {
+/* footer {
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -52,7 +53,7 @@ footer {
   position: relative;
   padding: 5%;
   background: grey;
-}
+} */
 
 @media only screen and (max-width: 800px) {
   .pfp {
