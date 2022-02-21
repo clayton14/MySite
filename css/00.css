@@ -17,6 +17,11 @@ p {
   text-decoration: black;
 }
 
+a {
+  padding: 5px;
+  margin: 1px;
+}
+
 .pfp {
   margin: 0%;
   float: right;
