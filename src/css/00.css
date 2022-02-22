@@ -1,10 +1,7 @@
 /* .fixed {
   position: absolute;
   width: 100%;
-<<<<<<< HEAD
-=======
   top: 0;
->>>>>>> dev
   z-index: 1;
   background: white;
 } */
@@ -50,16 +47,10 @@ p {
   text-decoration: black;
 }
 
-<<<<<<< HEAD
-a {
-  padding: 5px;
-  margin: 1px;
-=======
 .box-2 {
   margin: 0%;
   padding: 1% 15% 1%;
   text-decoration: black;
->>>>>>> dev
 }
 
 .pfp {
@@ -68,11 +59,7 @@ a {
   word-wrap: break-word;
   width: 200px;
   height: 200px;
-<<<<<<< HEAD
-  background-image: url("/src/images/me.jpeg");
-=======
   /* background-image: url("/src/images/me.jpeg"); */
->>>>>>> dev
   background-size: cover;
   display: block;
   border-radius: 125px;
@@ -83,22 +70,6 @@ a {
 .main_card {
   margin-bottom: 30px;
   font-size: large;
-<<<<<<< HEAD
-  border-left: black 1px solid;
-  padding: 0px 5px;
-  width: 75%;
-}
-
-.dark {
-  background: #222;
-  color: #fff;
-}
-
-@media only screen and (max-width: 815px) {
-  .pfp {
-    margin: 0%;
-    align-content: center;
-=======
   border-block: black 2px solid;
   padding: 10px 5px 10px;
   width: 70%;
@@ -111,7 +82,6 @@ a {
     position: inherit;
     float: left;
     word-wrap: normal;
->>>>>>> dev
     width: 200px;
     height: 200px;
     background-size: cover;
@@ -120,8 +90,6 @@ a {
     -webkit-border-radius: 125px;
     -moz-border-radius: 125px;
   }
-<<<<<<< HEAD
-=======
 
   .main_card {
     margin: 10%;
@@ -130,7 +98,6 @@ a {
     padding: 10px 5px 10px;
     width: 100%;
   }
->>>>>>> dev
 }
 
 @media only screen and (max-width: 500px) {
