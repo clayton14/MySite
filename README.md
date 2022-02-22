@@ -1,6 +1,6 @@
 # My Website
 
-This is the repo for Clayton’s [website](https://claytoneasley.org/)
+This is the repo for Clayton’s [website](https://claytoneasley.org/).
 All of my projects, ideas, thoughts and other random things are stored.
 
 ## Preview from source
@@ -22,6 +22,6 @@ I'm currently using [Wing CSS](https://kbrsh.github.io/wing/) but might change i
 
 ## How is my site hosted?
 
-I got the domain from [epik](https://registrar.epik.com/) and a vps from [vultr](https://www.vultr.com/)
+I got the domain from [epik](https://registrar.epik.com/) and a vps from [vultr](https://www.vultr.com/).
 
 Thanks to Luke Smith's [video](https://www.youtube.com/watch?v=3dIVesHEAzc) for helping in the process.
