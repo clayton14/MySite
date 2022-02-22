@@ -73,7 +73,7 @@ p {
     margin: 10%;
     width: 200px;
     height: 200px;
-    background-image: url("/src/images/me.jpeg");
+    /* background-image: url("/src/images/me.jpeg"); */
     background-size: cover;
     display: block;
     border-radius: 125px;
