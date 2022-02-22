@@ -1,6 +1,6 @@
 # My Website
 
-This is the repo for Clayton’s website.
+This is the repo for Clayton’s [website](https://claytoneasley.org/) 
 
 ## Preview from source
 
@@ -11,3 +11,9 @@ to do:
 2. `cd` to the [`src`](./src) directory.
 3. Run `python -m http.server`.
 4. Open `http://0.0.0.0:8000/` in a Web browser.
+
+
+
+
+
+
