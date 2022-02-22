@@ -12,16 +12,16 @@ header {
   margin: 1%;
   display: flex;
   justify-content: space-between;
-  padding: 10px 5%;
 }
 
 .nav {
+  padding: 1% 1% 1%;
   overflow: hidden;
-  box-sizing: border-box;
+  box-sizing: content-box;
   margin: 0;
   background-color: white;
   position: fixed;
-  display: inline-block;
+  display: block;
   z-index: 1;
   width: 100%;
 }
@@ -34,6 +34,7 @@ header {
 }
 
 .nav a:hover {
+  font-size: larger;
 }
 
 p {
@@ -43,13 +44,13 @@ p {
 
 .box-1 {
   margin: 0%;
-  padding: 5% 25% 5%;
+  padding: 6% 10% 1%;
   text-decoration: black;
 }
 
 .box-2 {
   margin: 0%;
-  padding: 1% 15% 1%;
+  padding: 10% 25% 10%;
   text-decoration: black;
 }
 
@@ -68,35 +69,26 @@ p {
 }
 
 .main_card {
-  margin-bottom: 30px;
   font-size: large;
   border-block: black 2px solid;
-  padding: 10px 5px 10px;
-  width: 70%;
+  width: 75%;
 }
 
 /*screen change stuff*/
 
 @media only screen and (max-width: 800px) {
-  .pfp {
-    position: inherit;
-    float: left;
-    word-wrap: normal;
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    display: block;
-    border-radius: 125px;
-    -webkit-border-radius: 125px;
-    -moz-border-radius: 125px;
-  }
-
   .main_card {
     margin: 10%;
     font-size: large;
     border-block: black 2px solid;
-    padding: 10px 5px 10px;
+    padding: 100px 5px 10px;
     width: 100%;
+  }
+
+  .nav a {
+    color: black !important;
+    float: left;
+    padding-left: 14%;
   }
 }
 
