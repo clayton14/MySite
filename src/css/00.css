@@ -9,6 +9,7 @@
 
 p {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
 }
 
 .box {
@@ -46,8 +47,8 @@ p {
 
 @media only screen and (max-width: 800px) {
   .pfp {
-    position: relative;
-    float: inline-start;
+    position: inherit;
+    float: left;
     word-wrap: normal;
     width: 200px;
     height: 200px;
