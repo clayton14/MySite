@@ -1,8 +1,8 @@
 .fixed {
-  position: absolute;
+  position: sticky;
   top: 0;
   width: 100%;
-  z-index: 0;
+  z-index: 1;
   background: white;
   /* background-image: linear-gradient(to right, lightblue, ); */
 }
@@ -23,7 +23,7 @@ p {
   word-wrap: break-word;
   width: 200px;
   height: 200px;
-  background-image: url("/images/me.jpeg");
+  /* background-image: url("/src/images/me.jpeg"); */
   background-size: cover;
   display: block;
   border-radius: 125px;
@@ -33,7 +33,7 @@ p {
 
 .main_card {
   font-size: large;
-  border-left: black 1px solid;
+  border-block: black 2px solid;
   padding: 0px 5px;
   width: 50%;
 }
@@ -43,42 +43,19 @@ p {
   color: #fff;
 }
 
-/* footer {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  flex-direction: column;
-  margin-top: auto;
-  position: relative;
-  padding: 5%;
-  background: grey;
-} */
-
 @media only screen and (max-width: 800px) {
   .pfp {
-    margin: 5%;
+    position: relative;
+    float: inline-end;
+    word-wrap: normal;
     width: 200px;
     height: 200px;
-    background-image: url("/images/me.jpeg");
     background-size: cover;
     display: block;
     border-radius: 125px;
     -webkit-border-radius: 125px;
     -moz-border-radius: 125px;
   }
-
-  /* footer {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    margin-top: auto;
-    position: relative;
-    padding: 10%;
-    background: grey;
-  } */
 }
 
 @media only screen and (max-width: 500px) {
@@ -86,7 +63,7 @@ p {
     margin: 10%;
     width: 200px;
     height: 200px;
-    background-image: url("/images/me.jpeg");
+    background-image: url("/src/images/me.jpeg");
     background-size: cover;
     display: block;
     border-radius: 125px;
