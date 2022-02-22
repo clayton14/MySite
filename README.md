@@ -5,8 +5,7 @@ All of my projects, ideas, thoughts and other random things are stored.
 
 ## Preview from source
 
-To test out the site using what’s a available in this repo, here’s what you have
-to do:
+To test out the site using what’s a available in this repo, here’s what you have to do:
 
 1. Make sure that [Python](https://www.python.org/) is installed.
 2. `cd` to the [`src`](./src) directory.
