@@ -24,4 +24,4 @@ I'm currently using [Wing CSS](https://kbrsh.github.io/wing/) but might change i
 
 I got the domain from [Epik](https://registrar.epik.com/) and a VPS from [Vultr](https://www.vultr.com/).
 
-Thanks to Luke Smith's [video](https://www.youtube.com/watch?v=3dIVesHEAzc) for helping in the process.
+Thanks to Luke Smith's [video](https://videos.lukesmith.xyz/w/c1d4KKBe8iQ3sqL6W8vYDp) for helping in the process.
