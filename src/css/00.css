@@ -9,19 +9,19 @@
 /*nav css*/
 
 header {
-  margin: 1%;
+  margin: 0%;
   display: flex;
   justify-content: space-between;
-  padding: 10px 5%;
 }
 
 .nav {
+  padding: 1% 1% 1%;
   overflow: hidden;
-  box-sizing: border-box;
+  box-sizing: content-box;
   margin: 0;
   background-color: white;
   position: fixed;
-  display: inline-block;
+  display: block;
   z-index: 1;
   width: 100%;
 }
@@ -34,6 +34,7 @@ header {
 }
 
 .nav a:hover {
+  font-size: larger;
 }
 
 p {
@@ -68,35 +69,28 @@ p {
 }
 
 .main_card {
-  margin-bottom: 30px;
   font-size: large;
   border-block: black 2px solid;
-  padding: 10px 5px 10px;
-  width: 70%;
+  padding: 100px 5px 10px;
+  width: 75%;
 }
 
 /*screen change stuff*/
 
 @media only screen and (max-width: 800px) {
-  .pfp {
-    position: inherit;
-    float: left;
-    word-wrap: normal;
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    display: block;
-    border-radius: 125px;
-    -webkit-border-radius: 125px;
-    -moz-border-radius: 125px;
-  }
-
   .main_card {
     margin: 10%;
     font-size: large;
     border-block: black 2px solid;
     padding: 10px 5px 10px;
     width: 100%;
+  }
+
+  .nav a {
+    color: black !important;
+    float: left;
+    text-align: center;
+    padding-left: 2%;
   }
 }
 
