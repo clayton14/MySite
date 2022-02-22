@@ -16,11 +16,11 @@ To test out the site using what’s a available in this repo, here’s what you 
 
 Feel free to make a pull request regarding the issue that you see.
 
-## Frameworks I am using ?
+## Frameworks I am using?
 
 I'm currently using [Wing CSS](https://kbrsh.github.io/wing/) but might change it to [Spectre css](https://picturepan2.github.io/spectre/index.html) in the future. Both are designed to be lightweight and responsive.
 
-## How is my site hosted ?
+## How is my site hosted?
 
 I got the domain from [epik](https://registrar.epik.com/) and a vps from [vultr](https://www.vultr.com/)
 
