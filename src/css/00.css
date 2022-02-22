@@ -58,6 +58,14 @@ p {
     -webkit-border-radius: 125px;
     -moz-border-radius: 125px;
   }
+
+  .main_card {
+    margin: 10%;
+    font-size: large;
+    border-block: black 2px solid;
+    padding: 10px 5px 10px;
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
