@@ -15,14 +15,14 @@ body {
   z-index: -1;
 }
 
-header {
-  margin: 1%;
+/* header {
+  padding: 15px 25px 5px;
   display: flex;
+  height: 100%;
   justify-content: space-between;
-}
+} */
 
 .nav {
-  padding-top: 1%;
   overflow: hidden;
   box-sizing: content-box;
   margin: 0;
