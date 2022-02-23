@@ -1,8 +1,12 @@
-.card {
-}
-
-.card:hover {
-}
-
-.card-pic {
+.card-image {
+  float: right;
+  word-wrap: break-word;
+  width: 200px;
+  height: 200px;
+  /* background-image: url("/src/images/me.jpeg"); */
+  background-size: cover;
+  display: block;
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
 }
