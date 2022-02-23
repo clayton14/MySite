@@ -23,9 +23,9 @@ body {
 } */
 
 .nav {
+  margin: 2%;
   overflow: hidden;
   box-sizing: content-box;
-  margin: 0;
   background-color: white;
   position: fixed;
   display: block;
@@ -83,7 +83,7 @@ p {
 
 /*screen change stuff*/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 815px) {
   .main_card {
     margin: 10%;
     font-size: large;
@@ -96,6 +96,16 @@ p {
     color: black !important;
     float: left;
     padding-left: 14%;
+  }
+
+  .nav {
+    overflow: hidden;
+    box-sizing: content-box;
+    background-color: white;
+    position: fixed;
+    display: block;
+    z-index: 1;
+    width: 100%;
   }
 }
 
@@ -110,5 +120,15 @@ p {
     border-radius: 125px;
     -webkit-border-radius: 125px;
     -moz-border-radius: 125px;
+  }
+
+  .nav {
+    overflow: hidden;
+    box-sizing: content-box;
+    background-color: white;
+    position: fixed;
+    display: block;
+    z-index: 1;
+    width: 100%;
   }
 }
